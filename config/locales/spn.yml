@@ -1,0 +1,104 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+spn:
+  header:
+    dxc_first_rails_application: "dxc_first_rails_application"
+    spanish: "española"
+    new_person: "persona nueva"
+    people_list: "personas_lista"
+    items_list: "artículos_lista"
+    live_messages: "En Vivo_mensajes"
+    home: "hogar"
+    sign_out: "desconectar"
+    sign_in: "registrarse"
+    sign_up: "Regístrate"
+    english: "English"
+
+  items:
+    items: "artículos"
+    download_as_excel: "descargar_como_excel"
+    download_as_csv: "descargar_como_csv"
+    download_as_pdf: "descargar_como_pdf"
+    upload_from_excel: "subir_desde_excel"
+    new_item: "nuevo artículo"
+    name: "nombre"
+    quantity: "cantidad"
+    editing_item: "edición_articulo"
+    forms:
+      name: "nombre"
+      quantity: "cantidad"
+
+  global:
+    show: "show"
+    edit: "editar"
+    destroy: "destruir"
+    are_you_sure: "Estas_segura"
+    back: "espalda"
+    prohibited_this_item_from_being_saved: "prohibió que este artículo se guarde:"
+    forms:
+      submit: "enviar"
+
+  items_imports:
+    import_items_from_excel: "Importar artículos de excel"
+    note_only_spreadsheets: "tenga en cuenta solo las hojas de cálculo"
+    requirements: "requisitos"
+    here_you_could: "aquí tu podrías."
+    that_way_your_user: "De esa manera tu usuaria"
+    select_file: "seleccione Archivo"
+    import_file: "importar archivo"
+    download_sample_excel: "descargar muestra Excel"
+    file: "archivo"
+    errors:
+      prevented_us: "nos impidió."
+
+  people:
+    people: "personas"
+    first_name: "nombre de pila"
+    last_name: "apellido"
+    email: "correo electrónico"
+    age: "años"
+    gender: "género"
+    editing_person: "persona de edición"
+    new_person: "Nueva persona"
+    showing_the_details: "mostrando los detalles:"
+    errors:
+      prohibited_this_person: "prohibido esta persona:"
+    people_listing:
+      first_name: "nombre de pila"
+      last_name: "apellido"
+      email: "correo electrónico"
+      age: "años"
+      gender: "género"
+
+  search:
+    search: "buscar"
+    search_for: "buscar"

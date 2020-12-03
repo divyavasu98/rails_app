@@ -1,0 +1,12 @@
+<body style="background-color:powderblue;">
+<div class="container text-center">
+  <%= javascript_pack_tag 'students' %>
+
+  <div class="students_new">
+    <h1><%= t('students.new_student') %></h1>
+    <%= link_to t('global.back'), students_path, class: "btn btn-primary" %>
+    <p></p>
+    <%= render 'form', student: @student %>
+  </div>
+</div>
+</body>

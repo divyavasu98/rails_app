@@ -1,0 +1,13 @@
+<body style="background-color:powderblue;">
+<div class="container hr text-center">
+  <h1><%= t('items.editing_item') %></h1>
+  <p></p>
+  <p></p>
+  <%= link_to t('global.show'), @item, class: "btn btn-primary" %> |
+  <%= link_to t('global.back'), items_path, class: "btn btn-primary" %>
+  <p></p>
+  <p></p>
+
+  <%= render 'form', item: @item %>
+</div>
+</body>

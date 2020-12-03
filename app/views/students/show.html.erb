@@ -1,0 +1,49 @@
+<body style="background-color:powderblue;">
+<div class="container hr">
+  <p id="notice"><%= notice %></p>
+
+  <h2><%= t('students.showing_the_details') %> <%= @name %></h2>
+  <%= link_to t('global.edit'), edit_person_path(@student), class: "btn btn-primary" %> |
+  <%= link_to t('global.back'), students_path, class: "btn btn-primary" %>
+  <p></p>
+  <p>
+    <strong><%= t('students.students_listing.first_name') %>:</strong>
+    <%= @student.first_name %>
+  </p>
+
+  <p>
+    <strong><%= t('students.students_listing.last_name') %>:</strong>
+    <%= @student.last_name %>
+  </p>
+
+  <p>
+    <strong><%= t('students.students_listing.year_of_birth') %>:</strong>
+    <%= @student.year_of_birth %>
+  </p>
+   <p>
+    <strong><%= t('students.students_listing.gender') %>:</strong>
+    <%= @student.gender %>
+  </p>
+
+  <p>
+    <strong><%= t('students.students_listing.email') %>:</strong>
+    <%= @student.email %>
+  </p>
+   <p>
+    <strong><%= t('students.students_listing.fathers_name') %>:</strong>
+    <%= @student.fathers_name %>
+  </p>
+
+  <p>
+    <strong><%= t('students.students_listing.mothers_name') %>:</strong>
+    <%= @student.mothers_name %>
+  </p>
+  <p>
+    <strong><%= t('students.students_listing.address') %>:</strong>
+    <%= @student.address %>
+  </p>
+  
+
+  
+</div>
+</body>
